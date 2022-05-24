@@ -13,18 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\arrays">
+      <UniqueIdentifier>{e6315555-ee19-49a3-9aad-68f164d3558b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\arrays">
+      <UniqueIdentifier>{b386e1bc-53c8-41a3-a28a-bbe8aa66bed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\linked_lists">
+      <UniqueIdentifier>{33637858-2736-46d9-bdd7-4b2fb987855e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\linked_lists">
+      <UniqueIdentifier>{6dab4301-667c-4a2c-ac9f-f176e34c3c0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CTCIRunner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="IsUniqueString.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleLL.cpp">
+      <Filter>Source Files\linked_lists</Filter>
+    </ClCompile>
+    <ClCompile Include="LL_Rem_Dup.cpp">
+      <Filter>Source Files\linked_lists</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IsUniqueString.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="LL_Rem_Dup.h">
+      <Filter>Header Files\linked_lists</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

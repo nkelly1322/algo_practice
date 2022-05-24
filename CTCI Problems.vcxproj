@@ -141,8 +141,11 @@
   <ItemGroup>
     <ClCompile Include="CTCIRunner.cpp" />
     <ClCompile Include="IsUniqueString.cpp" />
+    <ClCompile Include="SingleLL.cpp" />
+    <ClCompile Include="LL_Rem_Dup.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LL_Rem_Dup.h" />
     <ClInclude Include="IsUniqueString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

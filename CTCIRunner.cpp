@@ -4,13 +4,23 @@
 #include <iostream>
 #include "IsUniqueString.h"
 #include <string>
+#include <list>
+#include "LL_Rem_Dup.h"
 
 int main()
 {
     string pause;
+    /*
     string str = "aijfqe";
     quickSort(str, 0, str.length()-1);
-    std::cout << isUniqueString(str);
+    */
+    list<string> test = { "aa","aa","cc","cc","asdf","cc", "aa"};
+    remDups(test);
+    for (auto it : test)
+    {
+        std::cout << it << ":";
+    }
+    //std::cout << str;
     std::cin >> pause;
 }
 
