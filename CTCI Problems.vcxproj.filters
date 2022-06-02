@@ -25,6 +25,12 @@
     <Filter Include="Header Files\linked_lists">
       <UniqueIdentifier>{6dab4301-667c-4a2c-ac9f-f176e34c3c0d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\staque">
+      <UniqueIdentifier>{e9087fdc-adcc-4cbc-a1ca-ee5bec744020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\staque">
+      <UniqueIdentifier>{b711bcf2-63d3-4e35-b86c-a3e9b205ade7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CTCIRunner.cpp">
@@ -38,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="LL_Rem_Dup.cpp">
       <Filter>Source Files\linked_lists</Filter>
+    </ClCompile>
+    <ClCompile Include="minstack.cpp">
+      <Filter>Source Files\staque</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

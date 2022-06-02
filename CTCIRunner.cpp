@@ -6,6 +6,8 @@
 #include <string>
 #include <list>
 #include "LL_Rem_Dup.h"
+#include "SingleLL.cpp"
+#include "minstack.cpp"
 
 int main()
 {
@@ -14,6 +16,7 @@ int main()
     string str = "aijfqe";
     quickSort(str, 0, str.length()-1);
     */
+    /*
     list<string> test = { "aa","aa","cc","cc","asdf","cc", "aa"};
     remDups(test);
     for (auto it : test)
@@ -21,6 +24,32 @@ int main()
         std::cout << it << ":";
     }
     //std::cout << str;
+    */
+    MinStack<int> ms;
+    ms.push(3);
+    ms.push(2);
+    ms.push(5);
+    ms.push(7);
+    ms.push(3);
+    ms.push(8);
+    ms.push(3);
+    ms.push(2);
+    ms.push(0);
+    ms.push(1);
+    ms.push(1);
+
+    std::cout << ms.minimum() << endl;
+
+    ms.pop();
+    ms.pop();
+    ms.pop();
+
+    std::cout << ms.minimum() << endl;
+
+    ms.pop();
+
+    std::cout << ms.minimum() << endl;
+
     std::cin >> pause;
 }
 
