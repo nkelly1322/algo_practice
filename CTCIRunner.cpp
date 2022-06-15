@@ -5,9 +5,12 @@
 #include "IsUniqueString.h"
 #include <string>
 #include <list>
+#include <Vector>
 #include "LL_Rem_Dup.h"
 #include "SingleLL.cpp"
 #include "minstack.cpp"
+#include "BinarySearchTree.cpp"
+using namespace std;
 
 int main()
 {
@@ -25,32 +28,12 @@ int main()
     }
     //std::cout << str;
     */
-    MinStack<int> ms;
-    ms.push(3);
-    ms.push(2);
-    ms.push(5);
-    ms.push(7);
-    ms.push(3);
-    ms.push(8);
-    ms.push(3);
-    ms.push(2);
-    ms.push(0);
-    ms.push(1);
-    ms.push(1);
+    vector<int> nums {1,2,3,4,5,6,7,8,9,10};
+    BinarySearchTree<int> bst(nums);
+    cout << "Height:  " << bst.getHeight() << endl;
+    bst.inOrder();
 
-    std::cout << ms.minimum() << endl;
-
-    ms.pop();
-    ms.pop();
-    ms.pop();
-
-    std::cout << ms.minimum() << endl;
-
-    ms.pop();
-
-    std::cout << ms.minimum() << endl;
-
-    std::cin >> pause;
+    cin >> pause;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

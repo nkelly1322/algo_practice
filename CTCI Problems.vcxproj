@@ -144,6 +144,8 @@
     <ClCompile Include="SingleLL.cpp" />
     <ClCompile Include="LL_Rem_Dup.cpp" />
     <ClCompile Include="minstack.cpp" />
+    <ClCompile Include="GNode.cpp" />
+    <ClCompile Include="BinarySearchTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LL_Rem_Dup.h" />

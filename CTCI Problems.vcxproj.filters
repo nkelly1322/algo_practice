@@ -31,6 +31,9 @@
     <Filter Include="Header Files\staque">
       <UniqueIdentifier>{b711bcf2-63d3-4e35-b86c-a3e9b205ade7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\graphs">
+      <UniqueIdentifier>{9ec72b07-cccf-4aa8-a20f-92ee4757857d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CTCIRunner.cpp">
@@ -47,6 +50,12 @@
     </ClCompile>
     <ClCompile Include="minstack.cpp">
       <Filter>Source Files\staque</Filter>
+    </ClCompile>
+    <ClCompile Include="GNode.cpp">
+      <Filter>Source Files\graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>Source Files\graphs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
